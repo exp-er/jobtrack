@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "jobtrack"
+version = "0.0.1"
+description = "JobTrack - Application Tracking -- Checklist, Job Profile Features, Resume Improvement, and more."
+authors = ["pandeakshat"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.37.1"
+pandas = "^2.2.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+nltk = "^3.8.1"
+openpyxl = "^3.1.5"
+xlsxwriter = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
